@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game & Code: Endless Runner</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/rock.png" />
+    <link rel="stylesheet" href="./.where-the-magic-is/css/styles.css" />
+    <script src="./.where-the-magic-is/js/script.js" type="module"></script>
+  </head>
+  <body>
+    <main class="world" data-js="world">
+      <div class="ground" data-js="ground"></div>
+      <div class="ground" data-js="ground"></div>
+      <div class="player" data-js="player">
+        <img
+          data-js="player-image"
+          src="/assets/fw_1.png"
+          alt="player
+        character"
+        />
+      </div>
+      <img
+        class="obstacle"
+        alt="obstacle"
+        data-js="obstacle"
+        src="/assets/rod.png"
+      />
+      <p class="start-screen" data-js="start-screen">press key to start</p>
+      <p class="score" >No damage for: <span data-js="score">zero seconds</p>
+      <span class="text hide" data-js="text">Aua!</span>
+    </main>
+  </body>
+</html>
